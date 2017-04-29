@@ -61,10 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\Warmup\AVeryBigSum.cs" />
+    <Compile Include="Algorithms\Warmup\MinMax.cs" />
     <Compile Include="Algorithms\Warmup\SimpleArraySum.cs" />
     <Compile Include="Algorithms\Warmup\CompareTheTriplets.cs" />
     <Compile Include="Algorithms\Warmup\DiagonalDifference.cs" />
     <Compile Include="Algorithms\Warmup\PlusMinus.cs" />
+    <Compile Include="Algorithms\Warmup\Stairs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

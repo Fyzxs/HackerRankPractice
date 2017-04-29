@@ -31,7 +31,7 @@ namespace HackerRankPractice.Algorithms.Warmup
         [TestMethod]
         public void ShouldSumNumbers()
         {
-            BigInteger result = SimpleArraySumming(new long[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 });
+            BigInteger result = SimpleArraySumming(new long[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
             result.Should().Be(55);
         }
 

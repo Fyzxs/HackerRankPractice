@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace DeleteMeForHackerRank
+namespace HackerRankPractice.Algorithms.Warmup
 {
     [TestClass]
     public class MinMax
@@ -63,8 +62,9 @@ Sample Output
         }
         private static string MinMaxFinder(string numbersString)
         {
-            IReadOnlyList<BigInteger> bigInts = numbersString.Split(' ').Select(digit => new BigInteger(long.Parse(digit))).ToList();
-
+            List<BigInteger> bigInts = numbersString.Split(' ').Select(digit => new BigInteger(long.Parse(digit))).ToList();
+            bigInts.Sort();
+            
             return $"{Calcuate(bigInts, 0)} {Calcuate(bigInts, bigInts.Count - 4)}";
         }
 

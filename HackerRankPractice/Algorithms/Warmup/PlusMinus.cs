@@ -44,10 +44,15 @@ namespace HackerRankPractice.Algorithms.Warmup
 
             foreach (int value in _values)
             {
-
-               //.plus += _values
+                plus += value > 0 ? 1 : 0;
+                zero += value == 0 ? 1 : 0;
+                minus += value < 0 ? 1 : 0;
             }
-            return "0.000000\r\n0.000000\r\n1.000000";
+            double plusPct = (double)plus / _values.Length;
+            double zeroPct = (double)zero / _values.Length;
+            double minusPct = (double)minus / _values.Length;
+
+            return $"{plusPct:F6}\r\n{minusPct:F6}\r\n{zeroPct:F6}";
         }
     }
 }

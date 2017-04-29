@@ -2,7 +2,7 @@
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace DeleteMeForHackerRank
+namespace HackerRankPractice.Algorithms.Warmup
 {
     [TestClass]
     public class Stairs
@@ -39,18 +39,17 @@ namespace DeleteMeForHackerRank
             string result = Step(11);
 
             //assert
-            result.Should().Be(
-@"          #
-         ##
-        ###
-       ####
-      #####
-     ######
-    #######
-   ########
-  #########
- ##########
-###########");
+            result.Should().Be("          #\r\n" +
+                               "         ##\r\n" +
+                               "        ###\r\n" +
+                               "       ####\r\n" +
+                               "      #####\r\n" +
+                               "     ######\r\n" +
+                               "    #######\r\n" +
+                               "   ########\r\n" +
+                               "  #########\r\n" +
+                               " ##########\r\n" +
+                               "###########");
         }
 
         private static string Step(int numSteps)
