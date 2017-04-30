@@ -60,13 +60,15 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithms\Warmup\AVeryBigSum.cs" />
-    <Compile Include="Algorithms\Warmup\MinMax.cs" />
-    <Compile Include="Algorithms\Warmup\SimpleArraySum.cs" />
-    <Compile Include="Algorithms\Warmup\CompareTheTriplets.cs" />
-    <Compile Include="Algorithms\Warmup\DiagonalDifference.cs" />
-    <Compile Include="Algorithms\Warmup\PlusMinus.cs" />
-    <Compile Include="Algorithms\Warmup\Stairs.cs" />
+    <Compile Include="Algorithms\Warmup\04_AVeryBigSum.cs" />
+    <Compile Include="Algorithms\Warmup\08_MinMax.cs" />
+    <Compile Include="Algorithms\Warmup\03_SimpleArraySum.cs" />
+    <Compile Include="Algorithms\Warmup\02_CompareTheTriplets.cs" />
+    <Compile Include="Algorithms\Warmup\05_DiagonalDifference.cs" />
+    <Compile Include="Algorithms\Warmup\06_PlusMinus.cs" />
+    <Compile Include="Algorithms\Warmup\07_Stairs.cs" />
+    <Compile Include="Algorithms\Warmup\09_BirthdayCakeCandles.cs" />
+    <Compile Include="Algorithms\Warmup\10_TimeConversion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
